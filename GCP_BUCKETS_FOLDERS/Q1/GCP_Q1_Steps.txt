@@ -1,0 +1,15 @@
+Steps to host a Static Website using a GCP Bucket
+
+Step 1: Create a bucket in GCS
+Step 2: Upload a html file (staticwebsite.html)
+Step 3: In the file options, click on Edit Permissions
+Step 4: Click on Add Item
+Step 5: Enter the following in the respective columns
+	.Entity-User
+	.Name-allUsers
+	.Access- Reader
+Step 6: Click on Save
+Step 7: Public Access is assigned to the file
+Step 8: Click on the IP generated
+
+Our static website is hosted
